@@ -3,5 +3,5 @@ interface Station {
     coords: [number, number];
 }
 
-type Stations = Station[];
+
 

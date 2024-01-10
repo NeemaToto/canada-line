@@ -1,4 +1,4 @@
-export const allLines: Stations = [
+export const allLines: Station[] = [
     {
         "name": "Waterfront Station",
         "coords": [
