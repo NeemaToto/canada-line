@@ -10,9 +10,9 @@ export default function Map() {
     const subLineColor = { color: '#00b1fc' }
 
     return (
-        <div className="w-10/12	">
+        <div className="w-10/12">
             <MapContainer
-                style={{ height: '85vh' }}
+                style={{ height: '85vh', borderRadius: '0.4rem', border: 'solid 1px #d6d6d6' }}
                 center={[49.28570, -123.11178]} zoom={15} scrollWheelZoom={true}
             >
                 <TileLayer
